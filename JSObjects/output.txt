@@ -1,0 +1,25 @@
+person
+{firstName: "Nilesh", lastName: "Raj", isAdult: true}
+
+########################## dot(.) Methods ##############
+person.firstName;
+"Nilesh"
+person.lastName;
+"Raj"
+person.isAdult;
+true
+const person = {
+    a : 10,
+}
+VM441:1 Uncaught SyntaxError: Identifier 'person' has already been declared
+
+############################## subscript Methods #####################
+
+const Student = {
+    firstName:"OG",
+    lastName:"Hecor",
+    isAdult:true}
+undefined
+Student.lastName
+"Hecor"
+
